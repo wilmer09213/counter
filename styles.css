@@ -1,0 +1,51 @@
+.container {
+    position: absolute;
+    background-color: #FF5AB0;
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10%;
+}
+
+.number {
+    text-align: center;
+    color: white;
+    font-size: 10rem;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.add {
+    background-color: #4DF4FF;
+    color: white;
+    margin: 0 15%;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    border: 0;
+    border-radius: 10%;
+}
+
+.add:hover {
+    background-color: rgba(77, 244, 255, .5);
+}
+
+
+.minus {
+    background-color: #4DF4FF;
+    color: white;
+    margin: 0 15%;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    border: 0;
+    border-radius: 10%;
+}
+
+.minus:hover {
+    background-color: rgba(77, 244, 255, .5);
+}
